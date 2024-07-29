@@ -1,13 +1,5 @@
-import ListBox from './left_part/ListBox'
-import WatchedBox from './right_part/WatchedBox'
-
-function Main({ movies }) {
-  return (
-    <main className='main'>
-      <ListBox movies={movies} />
-      <WatchedBox />
-    </main>
-  )
+function Main({ children }) {
+  return <main className='main'>{children}</main>
 }
 
 export default Main
