@@ -8,7 +8,7 @@ function WatchedSummary({ watched }) {
 
   return (
     <div className='summary'>
-      <h2>Movies you watched</h2>
+      <h2> watched</h2>
       <div>
         <p>
           <span>#️⃣</span>
